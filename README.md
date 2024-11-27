@@ -4,13 +4,19 @@
 
 ### libraries, tools and languages
 
-next.js (version)
-three.js (version)
-node.js (version)
-prisma (version)
-PostgreSQL (version)
-axios (version)
-Typescript
+next.js (15.0.3)
+three.js (0.170.0)
+node.js (v20.12.0)
+not setup prisma (version)
+not setup PostgreSQL (version)
+not setup axios (version)
+Typescript(5)
+tailwind(3.4.15)
 
 ### Objectives
 This projects objective is to display 3D Models from database to website using three.js library in next.js envirioment.
+
+### So far
+
+we have working app that displays default cube spinnig on site. no database connection or own 3D-models
+
