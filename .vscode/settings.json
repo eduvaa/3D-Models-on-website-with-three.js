@@ -1,0 +1,7 @@
+{
+    "workbench.settings.useSplitJSON": true
+}
+
+"files.associations": {
+  "*.css": "tailwindcss"
+}
