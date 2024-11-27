@@ -1,22 +1,22 @@
 # 3D-Models-on-website-with-three.js
 
-## Next.js projext that renders 3D models to website with three.js library. 
+## Next.js project that renders 3D models to a website using the three.js library.
 
-### libraries, tools and languages
+### Libraries, Tools, and Languages
 
--next.js (15.0.3)
--three.js (0.170.0)
--node.js (v20.12.0)
--not setup prisma (version)
--not setup PostgreSQL (version)
--not setup axios (version)
--Typescript(5)
--tailwind(3.4.15)
+- **Next.js** (15.0.3)
+- **Three.js** (0.170.0)
+- **Node.js** (v20.12.0)
+- Not setup: **Prisma** (version unspecified)
+- Not setup: **PostgreSQL** (version unspecified)
+- Not setup: **Axios** (version unspecified)
+- **TypeScript** (5.0.0)
+- **Tailwind CSS** (3.4.15)
 
 ### Objectives
-This projects objective is to display 3D Models from database to website using three.js library in next.js envirioment.
 
-### So far
+This project's objective is to display 3D models from a database to a website using the three.js library in a Next.js environment.
 
-we have working app that displays default cube spinnig on site. no database connection or own 3D-models
+### Current Status
 
+We have a working app that displays a default spinning cube on the site. However, there is no database connection or custom 3D models implemented yet.
