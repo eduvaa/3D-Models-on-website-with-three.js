@@ -17,6 +17,19 @@
 
 This project's objective is to display 3D models from a database to a website using the three.js library in a Next.js environment.
 
+### Setup
+
+To set up the project:
+
+1. Fork this repository.
+2. Run the following command to install dependencies:
+
+   ```bash
+   npm install
+   # Or use npx if preferred:
+   npx install
+
+
 ### Current Status
 
 We have a working app that displays a default spinning cube on the site. However, there is no database connection or custom 3D models implemented yet.
