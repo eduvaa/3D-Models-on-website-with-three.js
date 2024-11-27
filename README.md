@@ -26,7 +26,10 @@ To set up the project:
 
    ```bash
    npm install
-   # Or use npx if preferred:
+
+### Or use npx if preferred:
+
+   ```bash
    npx install
 
 
