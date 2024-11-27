@@ -24,13 +24,13 @@ To set up the project:
 1. Fork this repository.
 2. Run the following command to install dependencies:
 
-      ```bash
-      npm install
+   ```bash
+   
+   npm install
 
-### Or use npx if preferred:
+Or use npx if preferred:
 
-      ```bash
-      npx install
+    npx install
 
 
 ### Current Status
