@@ -9,7 +9,7 @@ const ThreeScene: React.FC = () => {
   useEffect(() => {
     if (typeof window === "undefined") return;
 
-    const container = containerRef.current; // Kopioi ref paikalliseen muuttujaan
+    const container = containerRef.current; // kopioi ref paikalliseen muuttujaan
     if (!container) return;
 
     const scene = new THREE.Scene();
@@ -55,7 +55,7 @@ const ThreeScene: React.FC = () => {
       window.removeEventListener("resize", handleResize);
       renderer.dispose();
 
-      // Käytä paikallista muuttujaa siivouksessa
+      // käytä paikallista muuttujaa siivouksessa
       if (container && renderer.domElement.parentNode === container) {
         container.removeChild(renderer.domElement);
       }
