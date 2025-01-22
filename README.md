@@ -7,9 +7,7 @@
 - **Next.js** (15.0.3)
 - **Three.js** (0.170.0)
 - **Node.js** (v20.12.0)
-- Not setup: **Prisma** (version unspecified)
-- Not setup: **PostgreSQL** (version unspecified)
-- Not setup: **Axios** (version unspecified)
+- **PostgreSQL** (17.2)
 - **TypeScript** (5.0.0)
 - **Tailwind CSS** (3.4.15)
 
@@ -35,4 +33,4 @@ Or use npx if preferred:
 
 ### Current Status
 
-We have a working app that displays a default spinning cube on the site. However, there is no database connection or custom 3D models implemented yet.
+We have a working app that displays a default spinning cube on the site. test database is up and potgre is setup.
