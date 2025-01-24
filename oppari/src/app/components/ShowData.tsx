@@ -13,7 +13,7 @@ const ShowData: React.FC = () => {
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
-        const result = await response.json(); // Odottaa JSON-muotoista dataa
+        const result = await response.json(); // waits j-son data
         setData(result);
       } catch (error: any) {
         console.error('Error fetching data:', error);
