@@ -30,7 +30,20 @@ Or use npx if preferred:
 
     npx install
 
+#SQL table and database
+
+***models
+
+| id           | filename     | path         |
+|--------------|--------------|--------------|
+| 1            | name of ile  | path to file |
+| 2            | .            | .            |
+| 3            | .            | .            |
+| .            | .            | .            |
+| .            | .            | .            |
+| .            | .            | .            |
+
 
 ### Current Status
 
-We have a working app that displays a default spinning cube on the site. test database is up and potgre is setup.
+we have our own 3D-model that is fetched from database and it's zoomable and you can rotate it by clicking and dragging.
