@@ -30,9 +30,9 @@ Or use npx if preferred:
 
     npx install
 
-#SQL table and database
+# SQL table and database
 
-***models
+### models
 
 | id           | filename     | path         |
 |--------------|--------------|--------------|
