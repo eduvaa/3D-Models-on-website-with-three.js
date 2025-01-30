@@ -1,17 +1,15 @@
-import React from 'react';
-import ThreeScene from './components/scene1';
-import ShowData from './components/ShowData';
+"use client";
+
+import React from "react";
+import ThreeScene from "./components/scene1";
 
 
 const Home: React.FC = () => {
+
   return (
     <div>
-      <div>
-        <ShowData />
-      </div>
       <h1>3D Configuration</h1>
-      <p>Below is the 3D scene:</p>
-
+      <p>Select a model to load into the scene:</p>
       <ThreeScene />
     </div>
   );
