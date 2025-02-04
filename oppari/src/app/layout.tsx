@@ -28,7 +28,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <header className="bg-gray text-white py-4 px-6 text-center font-bold">
+        <header className="bg-gray text-white py-2 px-6 text-center font-bold">
           <div>
             <h1 className="text-3xl">3D Models with three.js</h1>
           </div>
@@ -41,9 +41,14 @@ export default function RootLayout({
         {children}
         </main>
 
-        <footer className="bg-gray text-white py-4 px-6 text-center">
+        <footer className="bg-gray text-white py-2 px-6 text-center">
           <div>
-            <p>asdasdasdasdasdasdad</p>
+          <p className="text-sm mt-2">
+            Built with Next.js, Three.js, and PostgreSQL.
+          </p>
+          <p className="text-xs mt-4 opacity-70">
+            © {new Date().getFullYear()} Eemil Ilvesluoto. All rights reserved.
+          </p>
           </div>
         </footer>
 
