@@ -28,7 +28,25 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <header className="bg-gray text-white py-4 px-6 text-center font-bold">
+          <div>
+            <h1 className="text-3xl">3D Models with three.js</h1>
+          </div>
+          <div>
+            <p className="text-xl">using PostgreSQL and next.js</p>
+          </div>
+        </header>
+
+        <main className="flex justify-center items-center p-6 w-full">
         {children}
+        </main>
+
+        <footer className="bg-gray text-white py-4 px-6 text-center">
+          <div>
+            <p>asdasdasdasdasdasdad</p>
+          </div>
+        </footer>
+
       </body>
     </html>
   );
