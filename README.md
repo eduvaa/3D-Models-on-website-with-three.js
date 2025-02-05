@@ -30,6 +30,8 @@ Or use npx if preferred:
 
     npx install
 
+Set up database as follows and download 3D models on your system in .glb format. Edit db.ts to match your database. Showdata.tsx is irrelevant and I just forgot to remove it.
+
 # SQL table and database
 
 ### models
@@ -44,6 +46,17 @@ Or use npx if preferred:
 | .            | .            | .            |
 
 
-### Current Status
+### About project
 
-we have our own 3D-model that is fetched from database and it's zoomable and you can rotate it by clicking and dragging.
+Project is made with next.js framework and typescript. Database is PostgreSQL and has only one table. For css project uses tailwind.
+
+Basically route inherits db and makes GET calls to database. ModleButtons gets filename and id from route and sends it forward to scene1 onClick.
+In scene three.js is setup and it renders 3D model on canvas and experorts it with buttons. Page.tsx is mainpage and it dispalys canvas on screen with
+layout that is setup in layout.tsx.
+
+Project is very simple demo about dipslaying 3D models on website with three.js library using Next.js and Typescript.
+
+Biggest problems in project were getting 3D models to work. I tried .gltf and .FBX and those didn't work. It didn't matter if models were in repo or on hard drive.
+.glb files worked well on bot on hard drive and repo. I didn't try other type of files. I just stick with first one that worked. 
+
+
